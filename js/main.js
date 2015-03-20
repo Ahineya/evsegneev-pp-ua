@@ -1,4 +1,4 @@
-(function(window, $) {
+(function(window, $, d) {
 
     var CONSTANTS = {
         WORKS_DATA: "data/works.json",
@@ -11,7 +11,10 @@
     window.onload = init;
 
     function init() {
-        console.log('Loaded');
+
+        if(!('content' in d.createElement('template'))) {
+            templatePolyfill();
+        }
 
         $.get(CONSTANTS.WORKS_DATA).then(function(data) {
             data.works.forEach(show);
@@ -25,10 +28,11 @@
     }
 
     function _getTemplate() {
-        var template = document.importNode(
-            document.querySelector(CONSTANTS.SELECTORS.TEMPLATE).content,
-            true
-        );
+
+        var template = document
+            .querySelector(CONSTANTS.SELECTORS.TEMPLATE)
+            .content
+            .cloneNode(true);
 
         var temp = document.createElement('div');
         temp.appendChild(template);
@@ -60,4 +64,4 @@
             .appendChild( $(template)[0] );
     }
 
-})(window, jQuery);
+})(window, jQuery, document);
