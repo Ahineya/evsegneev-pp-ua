@@ -1,0 +1,95 @@
+body {
+    font: normal 14px Roboto,arial,sans-serif;
+    background-color: #e0e0e0;
+}
+
+header ul, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    color: #008ac3;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+}
+
+header .logo {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24pt;
+}
+
+header .logo span {
+    font-size: 16px;
+}
+
+header .links {
+     float: right;
+ }
+
+header .links ul {
+    list-style-type: none;
+}
+
+header .links li {
+    display: inline;
+    line-height: 50px;
+    padding: 17px;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.card:first-child {
+    margin-top: 20px;
+}
+
+.card {
+    width: 100%;
+    position: relative;
+    border: 1px solid transparent;
+    border-color: #d2d2d2;
+    box-shadow: 0 1px 0 #cfcfcf;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.card.event, .card.announce {
+    border-top-left-radius: 0;
+}
+
+.event::before {
+    content: "event";
+    color: orange;
+    position: absolute;
+    border: 1px solid orange;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -53px;
+    padding: 3px;
+}
+
+.announce::before {
+    content: "announce";
+    color: #00cf00;
+    position: absolute;
+    border: 1px solid lightgreen;
+    background-color: white;
+    margin-top: -11px;
+    margin-left: -81px;
+    padding: 3px;
+}

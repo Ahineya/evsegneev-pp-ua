@@ -1,0 +1,21 @@
+{
+  "name": "evsegneev.pp.ua",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Ahineya/evsegneev-pp-ua",
+  "authors": [
+    "Pavel Evsegneev <pavel@evsegneev.pp.ua>"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "jquery": "~2.1.3"
+  }
+}

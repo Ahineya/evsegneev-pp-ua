@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rubics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+<div class="cube">
+    <div class="face one">
+        <table class='top'>
+    <tr>
+        <td class="white" data-index="1"></td>
+        <td class="white" data-index="2"></td>
+        <td class="white" data-index="3"></td>
+    </tr>
+    <tr>
+        <td class="white" data-index="4"></td>
+        <td class="white" data-index="5"></td>
+        <td class="white" data-index="6"></td>
+    </tr>
+    <tr>
+        <td class="white" data-index="7"></td>
+        <td class="white" data-index="8"></td>
+        <td class="white" data-index="9"></td>
+    </tr>
+</table>
+    </div>
+    <div class="face two">
+<table class='front'>
+    <tr>
+        <td class="blue" data-index="19"></td>
+        <td class="blue" data-index="20"></td>
+        <td class="blue" data-index="21"></td>
+    </tr>
+    <tr>
+        <td class="blue" data-index="22"></td>
+        <td class="blue" data-index="23"></td>
+        <td class="blue" data-index="24"></td>
+    </tr>
+    <tr>
+        <td class="blue" data-index="25"></td>
+        <td class="blue" data-index="26"></td>
+        <td class="blue" data-index="27"></td>
+    </tr>
+</table>
+    </div>
+    <div class="face three">
+        <table class='right'>
+    <tr>
+        <td class="orange" data-index="28"></td>
+        <td class="orange" data-index="29"></td>
+        <td class="orange" data-index="30"></td>
+    </tr>
+    <tr>
+        <td class="orange" data-index="31"></td>
+        <td class="orange" data-index="32"></td>
+        <td class="orange" data-index="33"></td>
+    </tr>
+    <tr>
+        <td class="orange" data-index="34"></td>
+        <td class="orange" data-index="35"></td>
+        <td class="orange" data-index="36"></td>
+    </tr>
+</table>
+        
+    </div>
+    <div class="face four">
+<table class='back'>
+    <tr>
+        <td class="green" data-index="46"></td>
+        <td class="green" data-index="47"></td>
+        <td class="green" data-index="48"></td>
+    </tr>
+    <tr>
+        <td class="green" data-index="49"></td>
+        <td class="green" data-index="50"></td>
+        <td class="green" data-index="51"></td>
+    </tr>
+    <tr>
+        <td class="green" data-index="52"></td>
+        <td class="green" data-index="53"></td>
+        <td class="green" data-index="54"></td>
+    </tr>
+</table>
+    </div>
+    <div class="face five">
+        <table class='left'>
+    <tr>
+        <td class="red" data-index="10"></td>
+        <td class="red" data-index="11"></td>
+        <td class="red" data-index="12"></td>
+    </tr>
+    <tr>
+        <td class="red" data-index="13"></td>
+        <td class="red" data-index="14"></td>
+        <td class="red" data-index="15"></td>
+    </tr>
+    <tr>
+        <td class="red" data-index="16"></td>
+        <td class="red" data-index="17"></td>
+        <td class="red" data-index="18"></td>
+    </tr>
+</table>
+
+
+    </div>
+    <div class="face six">
+        <table class='down'>
+    <tr>
+        <td class="yellow" data-index="37"></td>
+        <td class="yellow" data-index="38"></td>
+        <td class="yellow" data-index="39"></td>
+    </tr>
+    <tr>
+        <td class="yellow" data-index="40"></td>
+        <td class="yellow" data-index="41"></td>
+        <td class="yellow" data-index="42"></td>
+    </tr>
+    <tr>
+        <td class="yellow" data-index="43"></td>
+        <td class="yellow" data-index="44"></td>
+        <td class="yellow" data-index="45"></td>
+    </tr>
+</table>
+        
+    </div>
+</div>
+
+<!--textarea class='log' rows='35' cols='10'></textarea >
+<textarea class='command' rows='33' cols='10'></textarea >
+<button class='execute'>Execute</button>
+<button class='stringify'>Stringify</button-->
+<button class='executen'>Execute</button>
+<button class='loop'>Loop</button>
+<button class='loop-to-solve'>Loop to solve</button>
+
+<!--input class='stringified'-->
+<input class='executenc' placeholder='commands'>
+<input class='loopc' type='number' placeholder='Times'>
+
+<!--input class='zoom'-->
+
+<div style='float: left; border: 1px solid gray; z-index: 999'>
+    <button class='r'>r</button>
+    <button class='nr'>r'</button><br>
+    <button class='u'>u</button>
+    <button class='nu'>u'</button><br>
+    <button class='f'>f</button>
+    <button class='nf'>f'</button><br>
+    <button class='l'>l</button>
+    <button class='nl'>l'</button><br>
+    <button class='d'>d</button>
+    <button class='nd'>d'</button><br>
+    <button class='b'>b</button>
+    <button class='nb'>b'</button><br>
+</div>
+<div style="float: left; border: 1px solid gray;">
+
+    <button class='y'>y</button>
+    <button class='ny'>y'</button><br>
+    <button class='z'>z</button>
+    <button class='nz'>z'</button><br>
+    <button class='check'>Check</button>
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>

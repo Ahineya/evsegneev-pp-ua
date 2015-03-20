@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>JS Robot</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <script src="lib/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="css/highlight.css">
+    <script src="lib/highlight.js"></script>
+    <script>hljs.configure({tabReplace: '<span class="indent">\t</span>'});</script>
+</head>
+<body>
+
+<div class="links">
+    <div class="all-levels">
+        All levels
+    </div>
+    <div class="about">
+        About
+    </div>
+    <div class="reminder">
+        Reminder
+    </div>
+</div>
+
+<div class="levels">
+    <div class="cross">
+        &times;
+    </div>
+    <div class="levels-wrapper">
+
+    </div>
+    <div class="greeting">
+        <div class="words">
+            <div class="overview">
+
+                <h3>Greetings!</h3>
+                <p>You want to try my Javascript challenge, eh?</p>
+                <p>You can try.</p>
+                <p>
+                    There are some levels group - the simplest can teach you the basics of JavaScript.<br />
+                    The hardest can be solved only after deep thinking.
+                </p>
+                <p>
+                    In all challenges you controls the robot - a "☺" character. You'll like that guy, I guarantee it.
+                </p>
+                <p>
+                    In each level you need to navigate robot to the finish cell. It marked by "f" sign.<br>
+                    When robot walks, you can see a "_" symbol. It is a mark for robot's starting place, nothing else.<br>
+                    "#" sign is a wall, robot can't walk through it.
+                </p>
+                <p>
+                    If you want to proud of a beating all challenges, play fairly.
+                </p>
+                <p>
+                    If you found any bugs, please, write them to <a href="https://github.com/Ahineya/jsrobot/issues" target="_blank">https://github.com/Ahineya/jsrobot/issues</a>
+                </p>
+                <p>
+                    Github repository is <a href="https://github.com/Ahineya/jsrobot" target="_blank">here</a>
+                </p>
+                <p>
+                    My other projects are <a href="http://evsegneev.pp.ua" target="_blank">here</a>
+                </p>
+            </div>
+            <div class="guide">
+                <p>Available robot functions:</p>
+                <p>
+                    Moving functions moves the robot in specified direction.
+                    There are this functions and shortcuts:<br>
+                    <span class="code">R.move(direction);</span><br>
+                    <span class="code">R.walk(direction);</span><br>
+                    <span class="code">R.right();</span><br>
+                    <span class="code">R.left();</span><br>
+                    <span class="code">R.up();</span><br>
+                    <span class="code">R.down();</span><br>
+                    If robot can't move in specified direction then this functions returns false, otherwise they returns true.
+                </p>
+                <p>
+                    Recognizing function:<br>
+                    <span class="code">R.standingOn(symbol);</span><br>
+                    <span class="code">R.standingOn();</span><br>
+                    If the symbol specified it returns true if robot stands on specified symbol, otherwise returns false.<br>
+                    If the symbol isn't specified it returns symbol that robot stands when calling this function.
+                </p>
+            </div>
+        </div>
+        <div class="bottom">
+            <button class="select-level nephritis-flat-button">Select level</button>
+        </div>
+    </div>
+</div>
+
+<div class="controls controls-first">
+
+    <div class="container">
+
+    </div>
+
+    <div class="buttons">
+        <button class="run nephritis-flat-button">Reload & run</button>
+        <button class="reload alizarin-flat-button">Reload</button>
+    </div>
+
+</div>
+
+<div class="controls controls-second">
+    <div class="name"></div>
+    <div class="description"></div>
+    <div class="error"></div>
+
+    <div class="code-wrapper">
+        <div class="overlay">
+            <div class="success-wrapper">
+                <p>
+                    Success!
+                </p>
+                <button class="next nephritis-flat-button">Next level</button>
+            </div>
+        </div>
+        <div class="before"><pre><code>for (var i = 0; i<=20 ; i++) {</code></pre></div>
+        <div class="code"><pre><code contenteditable="true" spellcheck="false">
+            /*write your code here*/
+        </code></pre></div>
+        <div class="after"><pre><code>
+        if (R.finished()) {
+            break;
+        };
+    }
+
+        </code></pre></div>
+    </div>
+
+</div>
+
+    <script src="js/map.js"></script>
+    <script src="js/robot.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/runner.js"></script>
+
+    <script>//$('pre code').each(function(i, e) {hljs.highlightBlock(e)});</script>
+
+</body>
+</html>

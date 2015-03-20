@@ -1,0 +1,152 @@
+.cube {
+  height: 150px;
+  position: absolute;
+  margin: 0 auto;
+  width: 150px;
+  -webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+transform-style: preserve-3d;
+top: 200px;
+	left: 400px;
+}
+
+.face {
+  /*background-color: rgb(50, 50, 50);*/
+  /*-webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);*/
+  height: 167px;
+  opacity: 1;
+  position: absolute;
+  width: 167px;
+}
+
+.cube .one  {
+  /*background-color: rgb(242, 24, 25);
+    background-color: white;*/
+  -webkit-transform: rotateX(90deg) translateZ(83px);
+-moz-transform: rotateX(90deg) translateZ(83px);
+transform: rotateX(90deg) translateZ(83px);
+}
+
+.cube .two {
+  /*background-color: rgb(235, 41, 158);*/
+  -webkit-transform: translateZ(83px);
+-moz-transform: translateZ(83px);
+transform: translateZ(83px);
+}
+
+.cube .three {
+ /* background-color: rgb(252, 209, 22);*/
+  -webkit-transform: rotateY(90deg) translateZ(83px);
+-moz-transform: rotateY(90deg) translateZ(83px);
+transform: rotateY(90deg) translateZ(83px);
+}
+
+.cube .four {
+  background-color: rgb(44, 45, 213);
+  -webkit-transform: rotateY(180deg) translateZ(83px);
+-moz-transform: rotateY(180deg) translateZ(83px);
+transform: rotateY(180deg) translateZ(83px);
+}
+
+.cube .five {
+  /*background-color: rgb(125, 105, 181);*/
+  -webkit-transform: rotateY(-90deg) translateZ(83px);
+-moz-transform: rotateY(-90deg) translateZ(83px);
+transform: rotateY(-90deg) translateZ(83px);
+}
+
+.cube .six {
+  /*background-color: rgb(22, 226, 38);*/
+  -webkit-transform: rotateX(-90deg) translateZ(83px) rotate(0deg);
+-moz-transform: rotateX(-90deg) translateZ(83px) rotate(0deg);
+transform: rotateX(-90deg) translateZ(83px) rotate(0deg);
+}
+td {
+    border: 1px solid gray;
+}
+
+
+td {
+    width: 50px;
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+.white {
+    background-color: white;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.orange {
+    background-color: #ff7e11;
+}
+
+td:hover {
+    opacity: 0.7;
+    border: 1px dashed black;
+}
+
+.log {
+    position: absolute;
+    left: 505px;
+}
+.command {
+    position: absolute;
+    left: 625px;
+}
+.execute {
+    position: absolute;
+    left: 750px;
+    top: 10px;
+}
+.stringify {
+    position: absolute;
+    left: 750px;
+    top: 31px;
+}
+.stringified {
+    position: absolute;
+    left: 815px;
+    top: 31px;
+}
+.executen {
+    position: absolute;
+    left: 800px;
+    top: 52px;
+}
+.executenc {
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    width: 200px;
+}
+.loop {
+    position: absolute;
+    left: 800px;
+    top: 94px;
+}
+.loop-to-solve {
+    position: absolute;
+    left: 800px;
+    top: 115px;
+}
+.loopc {
+    position: absolute;
+    left: 850px;
+    top: 94px;
+}
+
+.zoom {
+    position: absolute;
+    left: 750px;
+    top: 73px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pavel Evsegneev</title>
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                Pavel Evsegneev
+                <span>JavaScript developer, trainer, popularizer</span>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="https://github.com/Ahineya">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/evsegneev">LinkedIn</a></li>
+                    <li style="display: none;"><a href="#">My CV</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <content id="content">
+
+        </content>
+    </div>
+
+    <template id="work">
+        <div class="card {class}">
+            <a href="{link}">{name}</a>
+            <p class="description">{description}</p>
+            <p class="links">[links]</p>
+        </div>
+    </template>
+
+</body>
+</html>

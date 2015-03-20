@@ -1,0 +1,136 @@
+{
+    "works": [
+        {
+            "class": "announce",
+            "name": "Products / basket implementation using pubsubs and modules",
+            "link": "http://ahineya.github.io/js-basket-demo",
+            "description": "Demo app I'll be using for JavaScript architecture workshop",
+            "links": [
+                {
+                    "url": "https://github.com/Ahineya/js-basket-demo",
+                    "text": "Github repo"
+                }
+            ]
+        },
+        {
+            "class": "event",
+            "name": "5 March 2015 EPAM Open Javascript Community Meeting",
+            "link": "http://dou.ua/calendar/6779/",
+            "description": "Tech talks about WebComponents and Polymer.",
+            "links": [
+                {
+                    "url": "http://ahineya.github.io/js-talks-webcomponents/",
+                    "text": "Web components demo app"
+                },
+                {
+                    "url": "http://dou.ua/forums/topic/12944/",
+                    "text": "Org report [RU]"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=XAEInuXN9AQ",
+                    "text": "Event video [RU]"
+                }
+            ]
+        },
+        {
+            "class": "event",
+            "name": "24 December Web components and Polymer (workshop)",
+            "link": "http://dou.ua/calendar/6338/",
+            "description": "Real-time coding of small, but useful weather application upon Polymer and Web Components concepts. ",
+            "links": [
+                {
+                    "url": "https://github.com/Ahineya/polymer-weather-app",
+                    "text": "Github repo"
+                }
+            ]
+        },
+        {
+            "class": "event",
+            "name": "8 November 2014 Week-end full-stack JavaScript with Poker and Poetess (workshop)",
+            "link": "http://dou.ua/calendar/5984/",
+            "description": "Real-time coding of multiplayer Draw Poker Game with Facebook Authorization. The whole application will be implemented using JavaScript stack of technologies. All participants can follow presenters on their notebooks and develop their own application.",
+            "links": [
+                {
+                    "url": "https://github.com/Ahineya/js-workshop-poker",
+                    "text": "Github repo"
+                }
+            ]
+        },
+        {
+            "name": "JavaScript design patterns demo",
+            "link": "http://ahineya.github.io/js-design-patterns-demo",
+            "description": "Javascript design patterns demo application used for EPAM JavaScript Talks.",
+            "links": [
+                {
+                    "url": "http://ahineya.github.io/js-design-patterns-demo",
+                    "text": "Demo app"
+                },
+                {
+                    "url": "https://github.com/Ahineya/js-design-patterns-demo",
+                    "text": "Github repo"
+                }
+            ]
+        },
+        {
+            "name": "Another JavaScript challenge for programmers",
+            "link": "http://jsblackbox.tk",
+            "description": "In each level you need to find out a function by it's input and output.<br>It is a single page javascript application. Connected with travis. Uses grunt for building.",
+            "links": [
+                {
+                    "url": "https://github.com/Ahineya/jsblackbox",
+                    "text": "Github repo"
+                }
+            ]
+        },
+        {
+            "name": "JS Robot - Javascript challenge for developers",
+            "link": "http://jsrobot.tk",
+            "description": "<p>In each level of jsrobot you need to write simple program on JavaScript to guide a robot to exit.</p><p>It is a single page javascript application written using HTML5 and CSS3 techniques - localstorage, history API etc. Connected with travis. Uses grunt for building. Written in a TDD way.",
+            "links": [
+                {
+                    "url": "http://dailyjs.com/2014/06/30/jsrobot/",
+                    "text": "Daily JS Review"
+                },
+                {
+                    "url": "https://github.com/Ahineya/jsrobot",
+                    "text": "Github repo"
+                }
+            ]
+        },
+        {
+            "name": "JavaScript calendar heatmap widget",
+            "link": "projects/heatmap/",
+            "description": "Uses d3.js for rendering.",
+            "links": [
+                {
+                    "url": "https://github.com/Ahineya/heatmap",
+                    "text": "Github repo"
+                }
+            ]
+        },
+        {
+            "name": "Rubics cube on CSS3 and javascript",
+            "link": "projects/rubiks/",
+            "description": "This is a prototype. Ugly code and some interesting conceptions:<ul><li>You can use an international notation to program rubik's cube algorithms. Try pasting an algorithm from <a href='http://rubiks.wikia.com/wiki/Patterns' target='_blank'>http://rubiks.wikia.com/wiki/Patterns</a> into \"commands\" input and press \"Execute\" button.</li><li>Write commands and loop it N times</li><li>Write commands and loop it until the cube will be solved</li></ul>",
+            "links": []
+        },
+        {
+            "name": "Pure CSS Hippo",
+            "link": "projects/hippo/",
+            "description": "",
+            "links": []
+        },
+        {
+            "name": "Javascript type conversion magic",
+            "link": "http://jsfiddle.net/Ahineya/rRLv9/",
+            "description": "",
+            "links": []
+        },
+        {
+            "name": "jQuery magic",
+            "link": "http://cssdeck.com/labs/more-javascript-magic",
+            "description": "",
+            "links": []
+        }
+    ]
+}
