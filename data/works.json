@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "class": "event",
+            "name": "21 April 2015 Low coupling and PUB/SUBs in our programs (workshop)",
+            "link": "http://dou.ua/calendar/7191/",
+            "description": "Workshop for pre-middle/middle programmers to help them understand an application architecture.",
+            "links": []
+        },
+        {
             "class": "announce",
             "name": "Products / basket implementation using pubsubs and modules",
             "link": "http://ahineya.github.io/js-basket-demo",
