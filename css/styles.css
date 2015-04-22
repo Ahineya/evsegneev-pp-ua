@@ -93,3 +93,24 @@ header .links li {
     margin-left: -81px;
     padding: 3px;
 }
+
+@media screen and (max-width: 1100px) {
+    .card {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .announce::before, .event::before {
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .logo>span {
+        display: none;
+    }
+}
