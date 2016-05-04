@@ -91,7 +91,7 @@
         },
         {
             "name": "JS Robot - Javascript challenge for developers",
-            "link": "ahineya.github.io/jsrobot",
+            "link": "http://ahineya.github.io/jsrobot",
             "description": "<p>In each level of jsrobot you need to write simple program on JavaScript to guide a robot to exit.</p><p>It is a single page javascript application written using HTML5 and CSS3 techniques - localstorage, history API etc. Connected with travis. Uses grunt for building. Written in a TDD way.",
             "links": [
                 {
